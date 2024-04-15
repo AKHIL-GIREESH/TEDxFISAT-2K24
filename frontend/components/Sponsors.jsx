@@ -37,7 +37,7 @@ const Sponsors = () => {
             : null
         }
       >
-        {SponsorData.map(( Sponsor ) => {
+        {SponsorData.map((Sponsor) => {
           return (
             <div
               className="card"

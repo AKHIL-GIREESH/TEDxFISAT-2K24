@@ -234,7 +234,7 @@ const LandingPg = () => {
   return (
     <>
       {/* <div id='cursorblob' style={{position:"fixed",backgroundColor:"rgba(255, 0,0, 1)",boxShadow:"0 0 10px black",width:"100px",height:"100px",zIndex:5,top:50,left:50,borderRadius:"50%"}} ref={cursorblobRef}></div> */}
-      <DC />
+      {/* <DC /> */}
       <div
         style={{
           height: "100vh",
@@ -463,7 +463,7 @@ const LandingPg = () => {
       <br />
       <Speakers />
       <Ticket />
-      <Footer />
+      {/* <Footer /> */}
       {/* <div style={{padding:0,margin:0,height:"100vh",color:"black"}}>
         <h1>Page 3</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

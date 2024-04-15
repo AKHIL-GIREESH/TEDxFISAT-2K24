@@ -5,13 +5,14 @@
   justify-content: center;
   margin-top: 15px;
   position: fixed;
-  z-index: 90;
+  z-index: 1000;
 
   
   
 }
 .NavB{
   padding: 0 20px;
+  z-index:1000;
 
   background: rgba( 255, 255, 255, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -28,6 +29,7 @@
 
 }
 .Nav{
+  z-index: 1000;
   font-size: 22px;
   display: flex;
   gap: 40px;
@@ -118,7 +120,7 @@
     
   }
   .mobMenu{
-    z-index: 90;
+    z-index: 10000;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -134,6 +136,7 @@
   .NavB{
     display: flex;
     width: 80vw;
+    z-index: 1000;
     border-radius: 35px+padding;
     justify-content: space-between;
   }
@@ -147,7 +150,8 @@
 }
 
 .MobNav{
-  z-index: 100;
+  position: fixed;
+  z-index: 800;
   gap: 30px;
   display: flex;
   flex-direction: column;

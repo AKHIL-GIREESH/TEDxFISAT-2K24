@@ -9,14 +9,14 @@ const SponsorData = [
     id: 1,
     name: "Keerthi Nirmal",
     img: SI1,
-    website: "",
+    website: "https://keerthiagro.com/",
     desc: "Title-Sponsor",
   },
   {
     id: 2,
     name: "Al Muqtadir",
     img: ST2,
-    website: "",
+    website: "https://almuqtadirjewellery.com/",
     desc: "Co-Sponsor",
   },
   {
